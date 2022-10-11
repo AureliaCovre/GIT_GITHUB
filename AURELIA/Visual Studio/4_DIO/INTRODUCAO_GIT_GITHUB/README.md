@@ -1,37 +1,37 @@
 # GIT E GITHUB
 
-Curso oferecido pela DIO 
+    Curso oferecido pela DIO 
 
-Link do curso: https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/75b9fe49-6ed4-4480-83a7-7e37fc356aa9?back=/track/geracao-tech-unimed-bh-ciencia-de-dados&tab=undefined&moduleId=undefined
+    Link do curso: https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/75b9fe49-6ed4-4480-83a7-7e37fc356aa9?back=/track/geracao-tech-unimed-   bh-ciencia-de-dados&tab=undefined&moduleId=undefined
 
-Instrutor: Otavio Reis
+    Instrutor: Otavio Reis
 
-Site para instalar o git: https://git-scm.com/downloads
+    Site para instalar o git: https://git-scm.com/downloads
 
 
 ## Anotações sobre o que aprendi durante o curso.
 
-Linux: Abrir o terminal | Para liberar permissão: sudo su e digita a senha
+    Linux: Abrir o terminal | Para liberar permissão: sudo su e digita a senha
 
-Windows: Abrir Git Bash
+    Windows: Abrir Git Bash
 
 ### COMANDOS
-Listar os diretorios: ls 
-Pra navegar pra uma pasta especifica no sistema: cd /
-Para retroceder uma pasta: cd ..
-Para limpar o terminal: clear ou ctrl+L
-Criar pasta: mkdir <nome da pasta>
-Criar arquivos: echo conteudo > nome.txt   exemplo: echo hello > hello.txt
-Deletar um repositorio: rm -rf <nome_pasta>/
-Para saber qual a versao do git que esta se utilizando: git --version
-Para saber o status do arquivo: git status
-Para adicionar os arquivos em staged: git add *, git add <nome_arquivo>, git add .
+    Listar os diretorios: ls 
+    Pra navegar pra uma pasta especifica no sistema: cd /
+    Para retroceder uma pasta: cd ..
+    Para limpar o terminal: clear ou ctrl+L
+    Criar pasta: mkdir <nome da pasta>
+    Criar arquivos: echo conteudo > nome.txt   exemplo: echo hello > hello.txt
+    Deletar um repositorio: rm -rf <nome_pasta>/
+    Para saber qual a versao do git que esta se utilizando: git --version
+    Para saber o status do arquivo: git status
+    Para adicionar os arquivos em staged: git add *, git add <nome_arquivo>, git add .
 
 ### SHA1
-A sigla SHA significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto 
-de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA). 
-Isso é relevante porque a saida dessa encriptação gera um conjunto de caracteres identificador 
-de 40 dígitos.  
+    A sigla SHA significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto 
+    de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA). 
+    Isso é relevante porque a saida dessa encriptação gera um conjunto de caracteres identificador 
+    de 40 dígitos.  
 
 ### OBJETOS FUNDAMENTAIS:
     - BLOBS
@@ -39,7 +39,7 @@ de 40 dígitos.
     - COMMITS
 
 ### CONFIGURANDO O GIT Á MAQUINA 
-Link da aula: https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/7410b862-1989-421a-a48d-500db5857f53?back=/track/geracao-tech-unimed-bh-ciencia-de-dados&tab=undefined&moduleId=undefined
+    Link da aula: https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/7410b862-1989-421a-a48d-500db5857f53?back=/track/geracao-tech-unimed-bh-ciencia-de-dados&tab=undefined&moduleId=undefined
 
 - Gerando a chave: 
     ssh-keygen -t ed25519 -C <seu_email> # Aqui ele ja vai mostrar onde sera gerada a chave
@@ -98,12 +98,12 @@ Link da aula: https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/7
 
     
 ### CONCEITOS
-GIT INIT: Inicializa / Cria o repositório dentro do diretório (pasta)
-UNTRACKED: São os arquivos que o Git ainda não tem ciencia deles
-TRACKED: São os arquivos que o Git ja tem ciencia deles. Dentro desse processo temos 3 etapas:
-    Unmodified: Arquivos que ainda não foram modificados
-    Modified: Arquivo que já sofreu alguma modificação 
-    Staged: Conceito chave, é onde ficam os arquivos que estão se preparando para fazer parte 
+    GIT INIT: Inicializa / Cria o repositório dentro do diretório (pasta)
+    UNTRACKED: São os arquivos que o Git ainda não tem ciencia deles
+    TRACKED: São os arquivos que o Git ja tem ciencia deles. Dentro desse processo temos 3 etapas:
+         - Unmodified: Arquivos que ainda não foram modificados
+         - Modified: Arquivo que já sofreu alguma modificação 
+         - Staged: Conceito chave, é onde ficam os arquivos que estão se preparando para fazer parte 
             de algum tipo de agrupamento (COMMIT)
 
 - Entendo o conceito na prática:
