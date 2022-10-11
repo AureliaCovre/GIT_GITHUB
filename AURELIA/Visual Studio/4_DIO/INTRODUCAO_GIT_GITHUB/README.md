@@ -151,11 +151,13 @@ TRACKED: São os arquivos que o Git ja tem ciencia deles. Dentro desse processo 
     git commit -m "Commit inicial"
     Criei o diretório no proprio GitHub 
     Copiei o caminho do diretório 
-    git remote add origin git@github.com:AureliaCovre/Git_GitHub.git
+    git remote add origin git@github.com:AureliaCovre/INTRODUCAO_GIT_GITHUB.git
     git remote -v #Traz a lista de repositorios remotos
     git push origin master
 
-
+    git remote add origin git@github.com:AureliaCovre/INTRODUCAO_GIT_GITHUB.git
+    git branch -M main
+    git push -u origin main
 
 
 
