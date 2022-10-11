@@ -1,6 +1,6 @@
 # GIT E GITHUB
 
-Curso oferecido pela DIO
+Curso oferecido pela DIO / Link do curso: https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/75b9fe49-6ed4-4480-83a7-7e37fc356aa9?back=/track/geracao-tech-unimed-bh-ciencia-de-dados&tab=undefined&moduleId=undefined
 
 Instrutor: Otavio Reis
 
@@ -11,6 +11,8 @@ Site para instalar o git: https://git-scm.com/downloads
 
 Linux: Abrir o terminal 
 - Para liberar permissão: sudo su e digita a senha
+
+Windows: Abrir Git Bash
 
 ### COMANDOS
 Listar os diretorios: ls 
@@ -161,22 +163,4 @@ TRACKED: São os arquivos que o Git ja tem ciencia deles. Dentro desse processo 
     git remote add origin git@github.com:AureliaCovre/INTRODUCAO_GIT_GITHUB.git
     git branch -M main
     git push -u origin main
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
