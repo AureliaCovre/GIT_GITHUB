@@ -1,10 +1,13 @@
 # GIT E GITHUB
+
 Curso oferecido pela DIO
+
 Instrutor: Otavio Reis
+
 Site para instalar o git: https://git-scm.com/downloads
 
 
-Anotações sobre o que aprendi durante o curso.
+## Anotações sobre o que aprendi durante o curso.
 
 Linux: Abrir o terminal 
 - Para liberar permissão: sudo su e digita a senha
