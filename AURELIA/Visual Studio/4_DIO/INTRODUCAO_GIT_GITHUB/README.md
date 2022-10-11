@@ -1,21 +1,16 @@
 # GIT E GITHUB
 
     Curso oferecido pela DIO 
-
     Link do curso: https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/75b9fe49-6ed4-4480-83a7-7e37fc356aa9?back=/track/geracao-tech-unimed-   bh-ciencia-de-dados&tab=undefined&moduleId=undefined
-
     Instrutor: Otavio Reis
-
     Site para instalar o git: https://git-scm.com/downloads
-
 
 ## Anotações sobre o que aprendi durante o curso.
 
     Linux: Abrir o terminal | Para liberar permissão: sudo su e digita a senha
-
     Windows: Abrir Git Bash
 
-### COMANDOS
+#### COMANDOS
     Listar os diretorios: ls 
     Pra navegar pra uma pasta especifica no sistema: cd /
     Para retroceder uma pasta: cd ..
@@ -27,18 +22,18 @@
     Para saber o status do arquivo: git status
     Para adicionar os arquivos em staged: git add *, git add <nome_arquivo>, git add .
 
-### SHA1
+#### SHA1
     A sigla SHA significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto 
     de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA). 
     Isso é relevante porque a saida dessa encriptação gera um conjunto de caracteres identificador 
     de 40 dígitos.  
 
-### OBJETOS FUNDAMENTAIS:
+#### OBJETOS FUNDAMENTAIS:
     - BLOBS
     - TREES
     - COMMITS
 
-### CONFIGURANDO O GIT Á MAQUINA 
+#### CONFIGURANDO O GIT Á MAQUINA 
     Link da aula: https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/7410b862-1989-421a-a48d-500db5857f53?back=/track/geracao-tech-unimed-bh-ciencia-de-dados&tab=undefined&moduleId=undefined
 
 - Gerando a chave: 
@@ -60,22 +55,22 @@
             ls
             ssh-add id_ed25519 #Aqui passamos a chave privada
 
-### CLONANDO UM REPOSITÓRIO 
+#### CLONANDO UM REPOSITÓRIO 
     git clone passa_caminho 
 
-### PRIMEIROS COMANDOS COM GIT
-- INICIAR O GIT: 
-    mkdir workspace
-    cd workspace
-    mkdir livro_receitas
-    cd livro_receitas
-    git init 
-    ls
-    ls -a #Mostra a pasta oculta
-    cd ..
+#### PRIMEIROS COMANDOS COM GIT
+    - INICIAR O GIT: 
+        mkdir workspace
+        cd workspace
+        mkdir livro_receitas
+        cd livro_receitas
+        git init 
+        ls
+        ls -a #Mostra a pasta oculta
+        cd ..
 
     
-### CONFIGURAÇÕES INICIAIS DO GIT 
+#### CONFIGURAÇÕES INICIAIS DO GIT 
     git config --global user.email "seuemail@gmail.com"
     git config --global user.name SeuUsuario 
     Para verificar as configurações: git config --list
@@ -83,7 +78,7 @@
                                    git config --global --unset user.name
 
     
-### GERANDO ARQUIVO MARKDOWN
+#### GERANDO ARQUIVO MARKDOWN
     # Editor de texto Typora: https://typora.io/#linux
     # Para deixar o texto grande (titulo)
     ### Para texto menores
@@ -92,12 +87,12 @@
     :nome_emoticon para emojis
      - (espeço - espaço para ficar com a bolinha na frente da frase)
 
-- CRIAR UM COMMIT 
-    git add *
-    git commit -m "commit inicial"
+    - CRIAR UM COMMIT 
+        git add *
+        git commit -m "commit inicial"
 
     
-### CONCEITOS
+#### CONCEITOS
     GIT INIT: Inicializa / Cria o repositório dentro do diretório (pasta)
     UNTRACKED: São os arquivos que o Git ainda não tem ciencia deles
     TRACKED: São os arquivos que o Git ja tem ciencia deles. Dentro desse processo temos 3 etapas:
@@ -106,25 +101,25 @@
          - Staged: Conceito chave, é onde ficam os arquivos que estão se preparando para fazer parte 
             de algum tipo de agrupamento (COMMIT)
 
-- Entendo o conceito na prática:
-    cd workspace
-    cd livro_receitas
-    ls
-    git status
-    mkdir receitas
-    ls
-    mv strogonoff.md ./receitas/ #Movendo o arquivo strogonoff para a pasta receitas
-    ls
-    git status
-    git add strogonoff.md receitas/  #Alterou o status dos arquivos para staged
-    git status
-    git commit -m "cria pasta receitas, move arquivo para receitas"  #Comitando os arquivos
-    git status
-    echo > README.md  #Criando o arquivo README.md
-    git status
+    - Entendo o conceito na prática:
+        cd workspace
+        cd livro_receitas
+        ls
+        git status
+        mkdir receitas
+        ls
+        mv strogonoff.md ./receitas/ #Movendo o arquivo strogonoff para a pasta receitas
+        ls
+        git status
+        git add strogonoff.md receitas/  #Alterou o status dos arquivos para staged
+        git status
+        git commit -m "cria pasta receitas, move arquivo para receitas"  #Comitando os arquivos
+        git status
+        echo > README.md  #Criando o arquivo README.md
+        git status
 
     
-### EMPURRAR O REPOSITÓRIO LOCAL PARA O REPOSITÓRIO REMOTO
+#### EMPURRAR O REPOSITÓRIO LOCAL PARA O REPOSITÓRIO REMOTO
     Primeiro criamos o diretório no GitHub. 
     No terminal: 
         git remote add origin git@github.com:SeuUsuario/Receitas.git
@@ -132,7 +127,7 @@
         git push origin master
 
     
-### RESOLVENDO CONFLITOS:
+#### RESOLVENDO CONFLITOS:
     Situação: Quando seu repositório ja esta no GitHub e você ou sua equipe efetua uma alteração. 
         git status 
         git add *
