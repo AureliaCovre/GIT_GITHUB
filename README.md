@@ -1,4 +1,4 @@
-# INTRODUÇGIT E GITHUB
+# INTRODUÇAO AO GIT E GITHUB
 
     Curso oferecido pela DIO 
     Link do curso: https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/75b9fe49-6ed4-4480-83a7-7e37fc356aa9?back=/track/geracao-tech-unimed-   bh-ciencia-de-dados&tab=undefined&moduleId=undefined
