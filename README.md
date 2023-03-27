@@ -33,9 +33,17 @@
     - TREES
     - COMMITS
 
+
+#### CONFIGURAÇÕES INICIAIS DO GIT 
+    git config --global user.email "seuemail@gmail.com"
+    git config --global user.name SeuUsuario 
+    Para verificar as configurações: git config --list
+    Para alterar as configurações: git config --global --unset user.email
+                                   git config --global --unset user.name
+                                   
 #### CONFIGURANDO O GIT Á MAQUINA 
     Link da aula: https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/7410b862-1989-421a-a48d-500db5857f53?back=/track/geracao-tech-unimed-bh-ciencia-de-dados&tab=undefined&moduleId=undefined
-
+    
 - Gerando a chave: 
     ssh-keygen -t ed25519 -C <seu_email> # Aqui ele ja vai mostrar onde sera gerada a chave
     
@@ -60,22 +68,13 @@
 
 #### PRIMEIROS COMANDOS COM GIT
     - INICIAR O GIT: 
-        mkdir workspace
-        cd workspace
-        mkdir livro_receitas
-        cd livro_receitas
         git init 
         ls
         ls -a #Mostra a pasta oculta
         cd ..
 
     
-#### CONFIGURAÇÕES INICIAIS DO GIT 
-    git config --global user.email "seuemail@gmail.com"
-    git config --global user.name SeuUsuario 
-    Para verificar as configurações: git config --list
-    Para alterar as configurações: git config --global --unset user.email
-                                   git config --global --unset user.name
+
 
     
 #### GERANDO ARQUIVO MARKDOWN
